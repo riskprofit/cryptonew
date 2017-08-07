@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{be0b8d9f-5c58-4734-bdca-faa143cdf844}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1ba5ad32-ee00-4cd5-a853-d047d9caf5ba}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{a2ae02af-7a1a-4ba9-a31f-a89454cd929f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{87ceb00f-b389-409d-a878-acbbd1dff1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\gui">
+      <UniqueIdentifier>{95caf57a-269a-4d5e-84e9-c0436b78c0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\gui\ui">
+      <UniqueIdentifier>{9309c3ee-117b-4973-8919-cf307e356594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommandLineParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoNote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrencyAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WalletAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CommandLineParser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CommandLineParser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeAdapter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeAdapter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Settings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Settings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SignalHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SignalHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WalletAdapter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WalletAdapter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_resources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AboutDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AboutDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AddressBookDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AddressBookDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AddressBookFrame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AddressBookFrame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AddressBookModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AddressBookModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AnimatedLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AnimatedLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ChangePasswordDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ChangePasswordDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ExitWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ExitWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewAddressDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewAddressDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NewPasswordDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NewPasswordDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_OverviewFrame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_OverviewFrame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PasswordDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PasswordDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ReceiveFrame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ReceiveFrame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RecentTransactionsModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RecentTransactionsModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SendFrame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SendFrame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SortedTransactionsModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SortedTransactionsModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransactionDetailsDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransactionDetailsDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransactionFrame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransactionFrame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransactionsFrame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransactionsFrame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransactionsListModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransactionsListModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransactionsModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransactionsModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TransferFrame.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TransferFrame.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\AboutDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\AddressBookDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\AddressBookFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\AddressBookModel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\AnimatedLabel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\ChangePasswordDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\ExitWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\MainWindow.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\NewAddressDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\NewPasswordDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\PasswordDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\ReceiveFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\RecentTransactionsModel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\SendFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\SortedTransactionsModel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\TransactionDetailsDialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\TransactionsFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\TransactionsListModel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\TransactionsModel.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\TransferFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="NodeAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\NodeAdapter.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\NodeAdapter.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandLineParser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NodeAdapter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SignalHandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WalletAdapter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources\resources.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\AboutDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\AddressBookDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\AddressBookFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\AddressBookModel.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\AnimatedLabel.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ChangePasswordDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ExitWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\MainWindow.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\NewAddressDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\NewPasswordDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\OverviewFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\PasswordDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ReceiveFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\RecentTransactionsModel.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\SendFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\SortedTransactionsModel.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\TransactionDetailsDialog.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\TransactionFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\TransactionsFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\TransactionsListModel.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\TransactionsModel.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\TransferFrame.h">
+      <Filter>Header Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\OverviewFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\OverviewFrame.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\OverviewFrame.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\TransactionFrame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Debug\TransactionFrame.moc">
+      <Filter>Generated Files\Debug</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\Release\TransactionFrame.moc">
+      <Filter>Generated Files\Release</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\aboutdialog.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\addressbookdialog.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\addressbookframe.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\changepassworddialog.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\exitwidget.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\mainwindow.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\newaddressdialog.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\newpassworddialog.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\overviewframe.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\passworddialog.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\receiveframe.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\sendframe.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\transactiondetailsdialog.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\transactionframe.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\transactionsframe.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui\ui\transferframe.ui">
+      <Filter>Form Files\gui\ui</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CryptoNote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="miniupnpcstrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\WalletEvents.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_aboutdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addressbookdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addressbookframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_changepassworddialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_exitwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newaddressdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newpassworddialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_overviewframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_passworddialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_receiveframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_sendframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transactiondetailsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transactionframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transactionsframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transferframe.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoNoteWalletConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\cryptonotewallet.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\icons\sync_sprite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\synced.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\lock_closed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\lock_open.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\tx_mined.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\add.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\tx_input.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\tx_output.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\address-book.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\remove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\receive.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\transactions.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\send.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\overview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\clock1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\clock2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\clock3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\clock4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\clock5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\transaction.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\connected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\disconnected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\export.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\tx_inout.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icons\unconfirmed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\splash.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\cryptonote.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\clock.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
